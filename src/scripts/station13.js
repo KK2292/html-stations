@@ -12,6 +12,6 @@ const object = {
   func: returnThisData,
 };
 
-function getData() {
+const getData = () => {
   return object.func();
-}
+};
